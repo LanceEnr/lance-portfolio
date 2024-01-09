@@ -1,12 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo.png";
-import {
-  FaBars,
-  FaTimes,
-  FaGithub,
-  FaLinkedin,
-  FaFacebook,
-} from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -50,7 +44,7 @@ const Navbar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
-              href="/"
+              href="https://www.linkedin.com/in/lanceenr/"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Linkedin <FaLinkedin size={30} />
@@ -58,7 +52,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
-              href="/"
+              href="https://github.com/LanceEnr"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Github <FaGithub size={30} />
@@ -66,7 +60,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
-              href="/"
+              href="mailto:lancemikaelo.enriquez@gmail.com"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Email <HiOutlineMail size={30} />
@@ -74,7 +68,8 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
-              href="/"
+              href="../assets/LanceEnriquez_CV.pdf"
+              download
               className="flex justify-between items-center w-full text-gray-300"
             >
               Resume <BsFillPersonLinesFill size={30} />
