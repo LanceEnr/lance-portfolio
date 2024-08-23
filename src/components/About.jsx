@@ -27,8 +27,6 @@ const About = () => {
               and user experience. Previously, as a Junior Frontend Developer
               for D’Trio Coffee, I crafted a responsive e-commerce site,
               improving design and functionality to boost customer engagement.
-              My technical skills span Java, JavaScript, ReactJS, and more, with
-              a passion for continuous learning and problem-solving.
             </p>
           </div>
         </div>
