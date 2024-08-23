@@ -51,7 +51,7 @@ const Work = () => {
                 <div className="pt-8 text-center">
                   <a href={item.github} target="_blank">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
-                      Github Link
+                      Github Repository
                     </button>
                   </a>
                 </div>
