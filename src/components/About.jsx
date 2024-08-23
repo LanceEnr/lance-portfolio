@@ -18,13 +18,17 @@ const About = () => {
           </div>
           <div>
             <p>
-              As a 4th year BS Information Technology student at the University
-              of Santo Tomas, I am deeply interested in web development. While I
-              have had the opportunity to explore full stack development, my
-              focus has been more towards front-end development. I am currently
-              seeking an internship that will allow me to further develop and
-              refine my skills. I am eager to learn, grow, and contribute to a
-              team while continuing my journey in this exciting field.
+              As a dedicated web developer with hands-on experience in both
+              front-end and back-end technologies, I’ve led impactful projects
+              and collaborated with diverse teams. My recent role as a Lead Full
+              Stack Developer Intern at the University of Santo Tomas involved
+              spearheading the development of a comprehensive risk monitoring
+              platform, utilizing a robust tech stack to enhance functionality
+              and user experience. Previously, as a Junior Frontend Developer
+              for D’Trio Coffee, I crafted a responsive e-commerce site,
+              improving design and functionality to boost customer engagement.
+              My technical skills span Java, JavaScript, ReactJS, and more, with
+              a passion for continuous learning and problem-solving.
             </p>
           </div>
         </div>

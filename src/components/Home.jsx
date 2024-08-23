@@ -1,24 +1,33 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
+import { ReactTyped } from "react-typed"; // Update here
 
 const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       {/* Container */}
-
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-yellow-600">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           Lance Enriquez,
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          Aspiring Web Developer.
+          <ReactTyped
+            strings={[
+              "A Dedicated Web Developer",
+              "A Video Game Dork",
+              "A Gym Head",
+              "A Tech Fanatic",
+            ]}
+            typeSpeed={40}
+            backSpeed={50}
+            loop
+          />
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I’m a 4th year BS Information Technology student at the University of
-          Santo Tomas, currently exploring the world of web development and
-          seeking opportunities to learn and grow.
+          A driven web developer with a hunger for growth and innovation, I’m
+          always ready to explore new horizons in the tech world.
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>

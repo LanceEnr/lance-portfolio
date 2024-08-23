@@ -36,11 +36,11 @@ const Navbar = () => {
             Work
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
-        </li>
+        </li> */}
       </ul>
 
       {/* Hamburger */}
@@ -79,12 +79,12 @@ const Navbar = () => {
             Work
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        {/* <li className="py-6 text-4xl">
           {" "}
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
-        </li>
+        </li> */}
       </ul>
 
       {/* Socials */}
@@ -116,7 +116,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
-              href="../assets/LanceEnriquez_CV.pdf"
+              href="https://drive.google.com/file/d/1vmqlf6fsjZuBXGu27Z7pbzqcyqyPwmdc/view?usp=sharing"
               download
               className="flex justify-between items-center w-full text-gray-300"
             >
